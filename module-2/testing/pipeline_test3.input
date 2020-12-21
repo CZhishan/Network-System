@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: MyHost
+
+GET /subdir1/haha HTTP/1.1
+Host:  Myhost 
+
+GET /subdir1/subdir11 HTTP/1.1
+Host:  
+
+GET /UCSD_Seal.png HTTP/1.1
+Host: MyHost

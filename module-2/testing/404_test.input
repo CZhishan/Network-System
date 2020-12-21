@@ -1,0 +1,10 @@
+GET /notfound.txt HTTP/1.1
+Host: myhost
+
+GET /subdir2 HTTP/1.1
+Host: MyHost
+
+GET /subdir1/../../../../.bashrc HTTP/1.1
+Host:  Myhost 
+Connection: close
+

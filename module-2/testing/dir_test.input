@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: myhost
+
+GET /subdir1 HTTP/1.1
+Host: MyHost
+
+GET /subdir1/subdir11 HTTP/1.1
+Host:  Myhost 
+Connection: close
+

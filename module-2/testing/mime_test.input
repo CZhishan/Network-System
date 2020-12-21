@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: myhost
+
+GET /subdir1/subdir11/maoyo.giaogiao HTTP/1.1
+Host:  Myhost 
+
+GET /kitten.jpg HTTP/1.1
+Host: myhost
+
+GET /UCSD_Seal.png HTTP/1.1
+Host: MyHost
+Connection: close
+
